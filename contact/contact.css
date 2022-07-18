@@ -1,0 +1,43 @@
+input,select,textarea{
+     height: 45px;
+     width:85%;
+ }
+ 
+ .btn-primary{
+     background-color: #ff6433 !important;
+     border: none !important;
+ } 
+
+ #Ent{
+     height: 120vh;
+ }
+ .lo{ 
+    width: 85%;
+    position:absolute;
+    left:5% !important;
+    height: 60vh !important;
+    bottom:-350px;
+ }
+ .li{
+     height: 100vh;
+ }
+ .l2{
+     margin-bottom: 100px !important;
+     padding-bottom: 80px;
+ }
+
+ @media(min-width:323px) and (max-width:426px){
+     .lo{
+         display: none;
+     }
+     #Ent .ji{
+         margin-bottom: 90px;
+     }
+ }
+
+ @media(min-width:481px) and (max-width:768px) {
+     .lo{
+        height: 20vh !important;
+        bottom: -270px;
+     }
+ }

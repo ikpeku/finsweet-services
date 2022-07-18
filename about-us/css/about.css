@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@700&display=swap');
+ body{
+   font-family: 'Manrope', sans-serif !important;
+ }
+
+ .one{
+    background: url(../img/p1.png) no-repeat;
+    height: 70vh;
+    background-size: cover; 
+ } 
+
+ .cate{
+    margin-right: 35px;
+    font-size: 18px;
+ }
+
+ .three{
+    background: url(../img/p2.png) no-repeat;
+    height: 100vh;
+    background-position: center;
+    background-size: cover; 
+ }
+
+ .flex{
+     display: flex;
+ }
+
+ .lo{
+    border-left: 2px dotted salmon;
+    height: 55px;
+    margin-left: 20px;
+    margin-top: 10px;
+ }
+
+ .me3{
+   background:
+   url(../img/t2.png),
+   url(../img/p2.png) no-repeat;
+   height: 65vh;
+   background-position: center;
+   background-size: cover; 
+ }
+
+ .me4{
+   background:
+   url(../img/t1.png),
+   url(../img/p10.png) no-repeat;
+   height: 65vh;
+   background-position: center;
+   background-size: cover; 
+ }
+
+ .me5{
+   background:
+   url(../img/t.png),
+   url(../img/p10.png) no-repeat;
+   height: 65vh;
+   background-position: center;
+   background-size: cover; 
+ }
+
+ .co{
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+ }
+
+ .ty{
+    height: 40vh;
+ }
+ .ts{
+   height: 70px;
+   line-height: 10px;
+ }
+
+ .cf{
+   margin-left: 90px;
+   margin-top: 0px;
+ }
+ .mt5{
+    margin-top: 70px;
+ }
+
+ .me6{
+    background: url(../img/p9.png) no-repeat;
+    height: 60vh;
+    background-position: center;
+    background-size: cover; 
+ }
+
+ .me8{
+    background: url(../img/p10.png) no-repeat;
+    height: 60vh;
+    background-position: center;
+    background-size: cover; 
+ }
+
+ #team img{
+    object-fit:cover;
+    object-position: center top;
+ }
+ 

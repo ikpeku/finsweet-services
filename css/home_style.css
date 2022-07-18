@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.btn-color {
+    background-color: #FF6433;
+    border: #FF6433;
+}
+.btn-colors{
+    background: #fff;
+}
+
+.pagecolor {
+    background-color: #FF6433;
+}
+
+.btn-colors:hover,
+.btn-colors:active,
+.btn-color:hover,
+.btn-color:active {
+    background-color: #f59d83;
+    border: #f59d83;
+}
+
+.bg-second-section {
+    background: #E2E6E9;
+}
+
+.bg-sec3 {
+    background-color: #661CE7;
+}
+
+
+.dotted {
+    border-left: 2px dotted red;
+}
+
+.cardobj {
+    margin: 5px;
+}
+
+
+.fifth-section-footer {
+    background: #F2F2F2;
+}
+
+.fifth-col {
+    color: #661CE7;
+}
+
+#seventh-section {
+    background: #F2F2F2;
+    mix-blend-mode: multiply;
+}
+
+#eigth-section {
+    background: #E2E6E9;
+}
+
+.lines{
+    margin: 0 0 0 .7rem;
+}
+
+
+
+
+@media (max-width: 770px) {
+    .fifth-mom {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+
+@media (min-width: 770px) {
+    .fifth-mom {
+        position: relative;
+    }
+
+    .fifth-child {
+        position: absolute;
+        width: 40%;
+        height: 100%;
+        left: 20rem;
+        z-index: 1;
+    }
+}

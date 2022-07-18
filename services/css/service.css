@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+btn {
+    background-color: #FF6433 !important;
+    border-radius: 10px !important;
+    border-color: none !important;
+    border-color: #FF6433 !important;
+    outline: none !important;
+    border-style: none!important;
+}
+
+btn:hover {
+    background-color: #e1653f !important;
+}
+
+btn:active {
+    background-color: #e1653f !important;
+    outline: none!important;
+}
+
+button .ms-5 {
+    margin-right: 80% !important;
+}
+
+.btn-service {
+    margin-left: 70px !important;
+}
+
+/* #first-section .services-para {
+    margin: auto 0;
+} */
+
+
+#second-sectionbg {
+    background: #F5F5F5;
+}
+
+#second-sectionbg p:last-of-type {
+    cursor: pointer;
+}
+
+/* #second-sectionbg {
+    width: 100%;
+    padding: 0 200px;
+} */
+
+#second-sectionbg .service-card:hover {
+    background-color: #FF6433;
+    cursor: pointer;
+    color: #fff;
+}

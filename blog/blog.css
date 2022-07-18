@@ -1,0 +1,19 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.trend{
+  background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url('./images/f1.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  object-fit: cover;
+}
+.contactOverlay{
+  width: 65%;
+}
+.xx{
+  height: 20rem;
+  justify-content: center;
+  align-items: center;
+}
